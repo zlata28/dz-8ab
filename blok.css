@@ -12,9 +12,7 @@ body{
 
 .blok{
 width: 600px;
-
-
-
+height: 600px;
  } 
     
 .bl1{
@@ -45,7 +43,6 @@ width: 600px;
 }
 
 .bl3{
-    
     border: 1px solid wheat;
     height: 200px;
     display: flex;
@@ -55,9 +52,16 @@ width: 600px;
     justify-content: center;
     align-items: center;
   }
-  .bl3_right :hover{
-transition: all 0.3s;
+  .bl3_right{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
   }
-  .bl3 :hover{
-    transform: scale(1);
-  }
+ .bl3_right :hover{
+  transform: scale(1.2);
+ }
+
+.bl3 :hover{
+  opacity:0.6;
+  transition: 0.3s;
+}
